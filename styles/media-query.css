@@ -1,0 +1,140 @@
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 991px) {
+	.header {
+		padding: 2rem 3%;
+	}
+	section {
+		padding: 10rem 3%;
+	}
+	.services {
+		padding: 7rem;
+	}
+	.testimonial .wrapper {
+		grid-template-columns: repeat(1,1fr);
+	}
+	.contact form .input-box input {
+		width: 100%;
+	}
+	.footer {
+		padding: 2rem 3%;
+	}
+}
+
+@media (max-width: 991px) {
+	#menu-icon {
+		display: block;
+	}
+
+
+	.navbar a{
+		display: block;
+	}
+/*
+
+	.navbar {
+		position: fixed;
+		top: 100%;
+		right: -100%;
+		width: 255px;
+		min-height: 100vh;
+		display: flex;
+		flex-direction: column;
+		background: var(--main-color);
+		transition: all 0.5 ease;
+		backdrop-filter:blur(10px);
+	}*/
+
+	.navbar {
+    position: fixed;
+    background: #f44336;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: -200px;
+    text-align: left;
+    z-index: 2;
+    /*background-color: rgba(10, 10, 10, 0.1);*/
+    /* background-filter: blur(10px); */
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    transition: 1s;
+  }
+	.navbar a{
+		display: block;
+		padding: 17px;
+		font-size: 22px;
+	}
+	.navbar .active {
+		right: 0;
+	}
+	.home {
+		flex-direction: column;
+	}
+	.home-content h3 {
+		font-size: 2.6rem;
+	}
+	.home-content h1 {
+		font-size: 5rem;
+	}
+	.home-content {
+		order: 2;
+		margin-left: 1rem;
+	}
+	.home-img img {
+		width: 70vw;
+		margin-top: 4rem;
+	}
+
+
+/*start code here*/
+
+	.abouts {
+		flex-direction: column;
+	}
+	.abouts-image img {
+		width: 69vw;
+		margin-top: 4rem;
+	}
+
+	.abouter {
+		flex-direction: column;
+	}
+	.abouter-image img {
+		width: 69vw;
+		margin-top: 4rem;
+	}
+
+	.abouted {
+		flex-direction: column;
+	}
+	.abouted-image img {
+		width: 69vw;
+		margin-top: 4rem;
+	}
+	.services h2 {
+		margin-bottom: 3rem;
+	}
+}
+
+@media (max-width: 617px) {
+	.home-img img {
+		width: 70vw;
+		margin-top: 8rem;
+	}
+	.about-img img {
+		width: 70vw;
+		margin-top: 4rem;
+	}
+}
+
+@media (max-width: 617px) {
+	html {
+		font-size: 50%;
+	}
+}
